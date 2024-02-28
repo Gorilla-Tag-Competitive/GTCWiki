@@ -6,20 +6,38 @@ on:
       - main  # Trigger the workflow on pushes to the main branch
 
 jobs:
-  build-and-deploy:
+  # Build job
+  build:
+    runs-one: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+      - run: npm ci
+      # Generate your TypeDoc documentation
+      - run: npm run docs:build
+      # https://github.com/actions/upload-pages-artifact
+      - uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./docs/.vuepress/dist  # This should be your TypeDoc "out" path.
+
+  # Deploy job
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Build VuePress site
-        run: npm run docs:build
-
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./docs/.vuepress/dist
+        id: deployment
+        uses: actions/deploy-pages@v4 # or specific "vX.X.X" version tag for this action
