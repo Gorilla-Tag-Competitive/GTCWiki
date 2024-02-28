@@ -8,7 +8,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-  base: 'GTCWiki',
+  base: '/GTCWiki/',
 
   title: 'Gorilla Tag Comp Wiki',
   description: 'A wiki for GTC',
