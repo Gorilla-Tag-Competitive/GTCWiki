@@ -35,19 +35,19 @@ tags:
 
 
 * [Gamemode](./Gamemode/Gamemode.md)
-* [Joining a Team](./ranking/how-to-rank-map.md)
-* [Making a Team](/ranking/criteria/)
-* [Getting a Team in the Tournament](./ranking/ranking-queue-rules.md)
-* [Tournament Process](./ranking/qat-guidelines.md)
-* [Reffing](./ranking/modding-queue-information.md)
-* [Casting](./ranking/scoresaber-team-information.md)
-* [Scrims](./ranking/ranking-unban-system-and-terms.md)
+* [Joining a Team](./Gamemode/Gamemode.md)
+* [Making a Team](./Gamemode/Gamemode.md)
+* [Getting a Team in the Tournament](./Gamemode/Gamemode.md)
+* [Tournament Process](./Gamemode/Gamemode.md)
+* [Reffing](./Gamemode/Gamemode.md)
+* [Casting](./Gamemode/Gamemode.md)
+* [Scrims](./Gamemode/Gamemode.md)
 :::
 
 ::: feature Other Resources
 
 * [Rules](./rules.md)
-* [Scrim Queue](./ScrimQueue.md)
+* [Scrim Queue](./Gamemode/Gamemode.md)
 :::
 
 </div>

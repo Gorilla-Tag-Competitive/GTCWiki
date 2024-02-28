@@ -14,7 +14,6 @@ export default defineUserConfig({
   description: 'A wiki for GTC',
 
   theme: defaultTheme({
-    //repo: 'https://github.com/vuejs/vuepress',
     docsDir: 'wiki',
     docsBranch: 'master',
     editLink: false,
