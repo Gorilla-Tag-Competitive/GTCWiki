@@ -16,7 +16,7 @@ jobs:
       # Generate your TypeDoc documentation
       - run: npm run docs:build
       # https://github.com/actions/upload-pages-artifact
-      - uses: actions/upload-pages-artifact@v2
+      - uses: actions/upload-artifact@v4
         with:
           path: ./docs/.vuepress/dist  # This should be your TypeDoc "out" path.
 
