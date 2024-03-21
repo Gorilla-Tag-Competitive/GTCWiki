@@ -6,7 +6,7 @@
 [You can find our complete Team here](https://scoresaber.com/team)
 :::
 :::tip If you want to know what each Team Role does,  
-[You can find more Information here](./ranking/scoresaber-team-information.md)  
+[You can find more Information here](./Gamemode/Gamemode.md)  
 :::
 
 ## About ScoreSaber
