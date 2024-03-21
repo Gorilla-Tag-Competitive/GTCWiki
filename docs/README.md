@@ -12,7 +12,7 @@ actions:
 tags:
   - GTC
   - Gorilla tag
-  - Competitave
+  - Competitive
   - wiki
   - help
 ---
@@ -29,6 +29,11 @@ tags:
 * [Beginners Guide](./beginners-guide.md)
 * [Frequently Asked Questions](./faq.md)
 
+:::
+
+::: feature How to Get Ranked
+
+* [Ranked Guide](./faq.md)
 :::
 
 ::: feature How to Play
