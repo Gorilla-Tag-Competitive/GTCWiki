@@ -1,188 +1,1662 @@
-# League rules
+<div style="
+  background: linear-gradient(to bottom, #000000, #2d2d2d);
+  border: 3px solid white;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  padding: 0 20px 20px 20px; /* Removed top padding */
+  margin: 20px;
+  color: white;
+  font-family: Arial, sans-serif;
+  position: relative;
+">
+  <!-- Cell Shading Effect -->
+  <div style="
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(0, 0, 0, 0.05) 0px,
+      rgba(0, 0, 0, 0.05) 10px,
+      transparent 10px,
+      transparent 20px
+    );
+    border-radius: 10px;
+    pointer-events: none;
+  "></div>
+  
+  <!-- Header -->
+  <h2 style="margin: 0; padding: 10px 0; font-size: 2em; text-shadow: 1px 1px 2px black;">Discrimination Punishment Guidelines</h2>
 
-## A.0 Match Start & prep
+  <!-- Inserted Content -->
+  <div style="background-color: #1f2b1f; border-left: 5px solid #9ccc65; padding: 10px; border-radius: 5px; margin: 10px 0; display: flex; justify-content: space-between; align-items: flex-start; box-shadow: 0 4px 8px rgba(46, 125, 50, 0.4), 0 6px 20px rgba(46, 125, 50, 0.3); margin-left: 0;">
+    <div>
+      <strong style="color: #c5e1a5; font-size: 1.9em;">❎ Stage One</strong>
+      <div style="height: 2px; background-color: #9ccc65; margin: 5px 0; width: 210px;"></div>
+      <p style="color: #a8bfa8; font-size: 1em; margin: 0;">Counts As First Offense</p>
+      <div style="display: inline-block; background-color: rgba(46, 125, 50, 0.3); border: 2px dotted #2e7d32; border-radius: 8px; padding: 5px 10px; margin: 10px 0 0 0;">
+        <p style="color: #e4e3f6; font-size: 1.3em; margin: 0;">⏳<strong>3 Month Ban</strong></p>
+      </div>
+    </div>
+    <table style="border-collapse: collapse; margin-left: 40px; color: #e4e3f6; font-size: 0.7em;">
+      <tr>
+        <th style="border: 1px solid #9ccc65; font-size: 1.9em; letter-spacing: 1px; padding: 5px;">📚Exceptions & Reductions</th>
+        <th style="border: 1px solid #9ccc65; font-size: 1.5em; letter-spacing: 1px; padding: 5px;">🏁Results🏁</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #9ccc65; letter-spacing: 0.4px; padding: 5px;"><u>Unintentional</u> or not <u>directed</u> at other community members</td>
+        <td style="border: 1px solid #9ccc65; letter-spacing: 0.4px; padding: 5px;">Reduced to <strong>1 Month</strong></td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #9ccc65; letter-spacing: 0.4px; padding: 5px;">If the behavior was apologized for immediately and no further issues arose.</td>
+        <td style="border: 1px solid #9ccc65; letter-spacing: 0.4px; padding: 5px;">Appeal Success Likely</td>
+      </tr>
+    </table>
+  </div>
 
-#### [A] Regulations pertaining to team structure and individual differentiation.
-- Matches must be 4v4, you can do 3v3 with permission from staff
-- All players on team must have a matching color. The first team to join the lobby will have color code 0,0,9 the second team to join will have color code 9.0,0
-- If you wish to wear a cosmetic, every member of your team must have it on
-- You must have your team tag followed by a known discord name, not changing your name in discord to have it appear different in match. 
-- All players must have any mods uninstalled before the start of the match
-- You must mute all players on the other team
+  <div style="background-color: #2d2b1b; border-left: 5px solid #fbc02d; padding: 10px; border-radius: 5px; margin: 10px 0; display: flex; justify-content: space-between; align-items: flex-start; box-shadow: 0 4px 8px rgba(199, 145, 0, 0.4), 0 6px 20px rgba(199, 145, 0, 0.3); margin-left: 30px;">
+    <div>
+      <strong style="color: #fff59d; font-size: 1.9em;">⚠️ Stage Two</strong>
+      <div style="height: 2px; background-color: #fbc02d; margin: 5px 0; width: 210px;"></div>
+      <p style="color: #bfb890; font-size: 1em; margin: 0;">Counts As Second Offense</p>
+      <div style="display: inline-block; background-color: rgba(199, 145, 0, 0.3); border: 2px dotted #c79100; border-radius: 8px; padding: 5px 10px; margin: 10px 0 0 0;">
+        <p style="color: #e4e3f6; font-size: 1.3em; margin: 0;">⏳<strong>6 Month Ban</strong></p>
+      </div>
+    </div>
+    <table style="border-collapse: collapse; margin-left: 40px; color: #e4e3f6; font-size: 0.7em;">
+      <tr>
+        <th style="border: 1px solid #fbc02d; font-size: 1.9em; letter-spacing: 1px; padding: 5px;">📚Exceptions & Reductions</th>
+        <th style="border: 1px solid #fbc02d; font-size: 1.5em; letter-spacing: 1px; padding: 5px;">	🏁Results🏁</th>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #fbc02d; letter-spacing: 0.4px; padding: 5px;">If second offense is entirely unrelated to the first offense.</td>
+        <td style="border: 1px solid #fbc02d; letter-spacing: 0.4px; padding: 5px;">Treat As First Offense </td>
+      </tr>
+      <tr>
+        <td style="border: 1px solid #fbc02d; letter-spacing: 0.4px; padding: 5px;">If Discrimination is not <u>targeted</u> or <u>intended</u> to offend another community member </td>
+        <td style="border: 1px solid #fbc02d; letter-spacing: 0.4px; padding: 5px;">Appeal Success Is More Likely</td>
+      </tr>
+    </table>
+  </div>
 
-#### [B] Operations that the ref must execute before the start of the match.
-- Refs must make sure to the best of their ability that all players mute
-- Refs must confirm both teams EX: “your XXX & your YYY correct?”
-- Refs must confirm all of the things stated in the rule above
-- Refs must be out of the field of play, AKA stump, Gazebo, or out of the map
+  <div style="background-color: #2d1b1b; border-left: 5px solid #d32f2f; padding: 10px; border-radius: 5px; margin: 10px 0; display: flex; justify-content: space-between; align-items: flex-start; box-shadow: 0 4px 8px rgba(183, 28, 28, 0.4), 0 6px 20px rgba(183, 28, 28, 0.3); margin-left: 60px;">
+    <div>
+      <strong style="color: #ef9a9a; font-size: 2em;">⛔Stage Three</strong>
+      <div style="height: 2px; background-color: #d32f2f; margin: 5px 0; width: 200px;"></div>
+      <p style="color: #bf8a8a; font-size: 1em; margin: 0;">Final Offense Regardless Of Previous Action</p>
+      <div style="display: inline-block; background-color: rgba(183, 28, 28, 0.3); border: 2px dotted #b71c1c; border-radius: 8px; padding: 10px; margin: 10px 0 0 0;">
+        <p style="color: #e4e3f6; font-size: 1.3em; margin: 0;">❌<strong>Permenent Ban</strong></p>
+      </div>
+    </div>
+    <!-- Right-side Smaller Text Box -->
+    <div style="background-color: rgba(183, 28, 28, 0.3); border: 2px dotted #d32f2f; border-radius: 8px; padding: 10px; margin-left: 10px; width: 40%;">
+      <p style="color: #e4e3f6; font-size: 1em; margin: 0;"><strong><u>WARNING!! - Once permanently banned, you have no chance of redemption, other than making an appeal. If you use an alternate account, further chances of appeal will be lost.</u></strong></p>
+    </div>
+  </div>
+</div>
 
-#### [C] Operations that the casters must execute before the start of the match. 
-- Casters must be using our OBS overlay and settings
-- Casters make sure that they can hear the ref
-- Casters make sure commentators stay on topic
-- Casters make sure everything is working
+---
+<style>
+/* Main Container */
+.page-container {
+  display: grid;
+  grid-template-columns: 1fr 300px; /* Left side takes up remaining space; TOC fixed width */
+  gap: 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  color: white;
+  font-family: Arial, sans-serif;
+}
 
-#### [D] Round setup and match starting prep
-- 1 player from each team must get tagged.
-- Tagged players must be in the gazebo when the round starts.
-- Untagged players must not be on the walls
-- The ref will confirm all players are ready.
-- When ready the ref will count down from 3 and the match will get off to the start
+/* Left Side - Info Box */
+.info-box {
+  background: linear-gradient(to bottom, #2d2d2d, #000000);
+  border: 3px solid white;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-#### [E] During The Round
-- The taggers will try to tag all members of the other team (tagging your own team is permitted).
-- Once you are tagged you will help your team members try to catch the other team
-- Once the entirety of a team is tagged the remaining team will be given a point.
-- “round setup and match starting prep” will be repeated. 
+.info-box:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(255, 255, 255, 0.4);
+}
 
-####   [F] The Countdown Timer
-- During the match there will be a countdown timer that lasts 30 minutes. It will be active at all times, except during breaks.
-- Once the timer ends and the current round (if there is one) ends the match is over and whoever has the higher number of points is the winner.
-- The round the timer runs out on will continue until the round is over.
-- The time will be paused when the players are not currently in a round.
+.info-header {
+  font-size: 1.5em;
+  text-align: center;
+  margin-bottom: 15px;
+  text-shadow: 1px 1px 2px grey;
+  border-bottom: 2px solid #e4e3f6;
+  padding-bottom: 10px;
+}
 
-#### [G] Playable Area
-- During the match you may never leave the forest map unless told to by staff.
-- The top of any map is not allowed to be played on.
-- Any area of a map that is not intended to be reached such as outside the walls of a map is banned.
+.info-section {
+  background-color: rgba(46, 125, 50, 0.3);
+  border: 2px solid #4caf50;
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(46, 125, 50, 0.5);
+}
 
-#### [H] Breaks
-- Each team gets a signal three minute break to use at any point where teams are not playing. One example of this would be while not during a round.
-- During breaks the timer will be paused.
+.vocab-section {
+  background-color: #343523;
+  border: 2px solid #6b6d4a;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px #6b6d4a;
+}
 
-#### [I] A Tie
-- If the timer ends and the round is over, if the points are tied then the ref will start a best of three (three rounds and the person with 2 points wins).  
+.vocab-term {
+  margin-bottom: 15px;
+  font-size: 0.95em;
+  color: #d6d6d6;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 4px solid #e4d674;
+  border-radius: 5px;
+  line-height: 1.4;
+}
 
-#### [J] Too Close To Call
-- If there is no way to find who won a round (the players were tagged at the same time and there is no recording to slow-mo through) then the round is a tie and no team gets a point.
+.vocab-term:last-child {
+  margin-bottom: 0;
+}
 
-## A.1 Round Reset rules & technical Difficulty
+.term-title {
+  font-size: 1em;
+  color: #e4d674;
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  text-decoration: underline;
+}
 
-#### [A] a player leaves without any explanation but is AFK in the lobby, Or claims to not be ready with no explanation of what they are doing. 
-- Ref gives a 10 second countdown for players to get back, if they are not back by the end of 10 seconds the match starts without them.
-- If there teammates can provide why they left and the ref did not hear them then refer to section B
+.term-text {
+  font-size: 0.85em;
+}
 
-#### [B] A player goes AFK with an explanation of what they are doing and asks for time. 
-- The player only gets 30 seconds then the round starts.
-- If it happens more then 2 rounds for 1 team then stalling rules are referenced to refs discretion. 
+.highlight {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #fff59d;
+}
 
-#### [C] If any runners disconnect mid round, it does not matter what team. 
-- The round cannot reset no matter the circumstances, but when player rejoins lobby they are not allowed to help tag the opposing team, so round remains 3v4
+/* Right Side - TOC Box */
+.toc-box {
+  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+  border: 2px solid #4caf50;
+  border-radius: 12px;
+  padding: 15px;
+  max-width: 300px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
-#### [D] If you want to reset the round to get a tagger of your choice.
-- If you start as a tagger but don't want to be tagger, you only get one round in the entire scrim to ask for a starting tagger reset. Per team  
+.toc-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
 
-## A.2 Stalling rules and punishments
+.toc-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #c5e1a5;
+  margin-bottom: 10px;
+  text-shadow: 1px 1px 1px gray;
+  border-bottom: 2px solid #4caf50;
+  padding-bottom: 5px;
+}
 
-#### [A] Intentionally impeding the advancement of the game, such as evading capture or declining to tag the other player. 
-- 1st offense = warning
-- 2nd offense = player sits out round
-- 3rd offense = forfeit of point
-- 4th offense = forfeit of match
-- 5th offense from same player in a season = stacking 1 month comp bans
+.toc-item {
+  margin: 5px 0;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
 
-#### [B] Deliberately engaging in strategic time-wasting maneuvers, such as needing water or switching out controller batteries, or employing similar tactics to disrupt gameplay progression. 
-- You get 3 times per team to stop for short periods of time the ref gets to decide how long between 10 seconds to 1 min.
-- If you exceed 3 times then you skip to 2nd offense of stalling rule then you move along stalling rule progression
+.toc-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
 
-#### [C] Engaging in intentional map-hopping as a means of disrupting the momentum of the match, even if only for a brief moment, in order to gain an advantage or create a distraction.
-- 1st offense = forfeit of round
-- 2nd offense = forfeit of match & 1 month comp ban of player
-- Any offenses more than this and stacking 1 month comp bans will ensue.  
+.toc-item a {
+  color: #cfcfcf;
+  text-decoration: none;
+  font-size: 0.95em;
+}
 
-## A.3 Prohibited tactics 
+.toc-item-content {
+  display: none;
+  margin-top: 8px;
+  padding-left: 10px;
+  border-left: 2px solid #4caf50;
+}
 
-#### [A] Employing hiding strategies. 
-- Now hiding is hard to define, but refs will be entrusted to identify hiding
-- 1st offense = warning 
-- 2nd offense = forfeit round
-- 3rd offense =  forfeit match
-- 4th offense = stacking 1 month comp bans
- 
-## A.4 Subbing rules, Matches & Scrims
+.toc-item.expanded .toc-item-content {
+  display: block;
+}
 
-#### [A] Using banned players in a “unofficial scrim”
-- If scrim is scheduled under name of official team
-- 1st offense is 1 very strong warning
-- 2nd offense is a instant disbandment and dissolving of the team
-- If the scrim is scheduled without official team name but consists of all team players
-- 1st offense is a strong warning
-- 2nd offense = captain replacement
-- 3rd offense = disbandment of team
+.toc-subitem {
+  font-size: 0.85em;
+  color: #a8d0a8;
+  margin-bottom: 5px;
+}
+</style>
 
-#### [B] Using subs in official matches
-- To use a sub in a official match the sub must be on your team, and the sub can only sub in at the start of a new round
-- If a team tries to use off team subs during an official match it's an instant forfeit and disbandment. 
+<div class="page-container">
+  <!-- Left Side - Vocabulary & Info -->
+  <div class="info-box">
+    <h2 class="info-header">📖 Vocabulary & Information 📖</h2>
+    <div class="info-section">
+      <p>❎ <span class="highlight">Stage 1:</span> Low-impact offenses or small violations with mild consequences.</p>
+      <p>⚠️ <span class="highlight">Stage 2:</span> Severe or repeated offenses leading to stricter penalties.</p>
+      <p>⛔ <span class="highlight">Stage 3:</span> The most severe punishment, resulting in a permanent ban.</p>
+    </div>
+    <div class="vocab-section">
+      <div class="vocab-term">
+        <span class="term-title">🟨 Discrimination:</span>
+        <span class="term-text">Unfair distinctions made between individuals based on groups or categories they belong to or are perceived to belong to.</span>
+      </div>
+      <div class="vocab-term">
+        <span class="term-title">🟨 Exceptions & Reductions:</span>
+        <span class="term-text">Reasons staff may adjust punishments to ensure fairness. These allow flexibility for unique situations.</span>
+      </div>
+      <div class="vocab-term">
+        <span class="term-title">🟨 Targeted & Directed:</span>
+        <span class="term-text">Actions aimed at individuals or groups with malicious intent, often intending to offend or harm.</span>
+      </div>
+      <div class="vocab-term">
+        <span class="term-title">🟨 Alternate Account & Ban Evasion:</span>
+        <span class="term-text">Using other accounts to avoid consequences or allowing banned users to participate. These are strictly prohibited.</span>
+      </div>
+    </div>
+  </div>
 
-## A.5 Respecting Ref Rules
+  <!-- Right Side - Table of Contents -->
+  <div class="toc-box">
+    <div class="toc-title">📋 Table of Contents</div>
+    <div class="toc-item">
+      <a href="#racism" onclick="toggleTOC(event, this)">📌 Racism</a>
+      <div class="toc-item-content">
+        <div class="toc-subitem"><a href="#stage-1-racism">❎ Stage 1</a></div>
+        <div class="toc-subitem"><a href="#stage-2-racism">⚠️ Stage 2</a></div>
+        <div class="toc-subitem"><a href="#stage-3-racism">⛔ Stage 3</a></div>
+      </div>
+    </div>
+    <div class="toc-item">
+      <a href="#homophobia" onclick="toggleTOC(event, this)">📌 Homophobia</a>
+      <div class="toc-item-content">
+        <div class="toc-subitem"><a href="#stage-1-homophobia">❎ Stage 1</a></div>
+        <div class="toc-subitem"><a href="#stage-2-homophobia">⚠️ Stage 2</a></div>
+        <div class="toc-subitem"><a href="#stage-3-homophobia">⛔ Stage 3</a></div>
+      </div>
+    </div>
+    <div class="toc-item">
+      <a href="#sexism" onclick="toggleTOC(event, this)">📌 Sexism</a>
+      <div class="toc-item-content">
+        <div class="toc-subitem"><a href="#stage-1-sexism">❎ Stage 1</a></div>
+        <div class="toc-subitem"><a href="#stage-2-sexism">⚠️ Stage 2</a></div>
+        <div class="toc-subitem"><a href="#stage-3-sexism">⛔ Stage 3</a></div>
+      </div>
+    </div>
+    <div class="toc-item">
+      <a href="#ableism" onclick="toggleTOC(event, this)">📌 Ableism</a>
+      <div class="toc-item-content">
+        <div class="toc-subitem"><a href="#stage-1-ableism">❎ Stage 1</a></div>
+        <div class="toc-subitem"><a href="#stage-2-ableism">⚠️ Stage 2</a></div>
+        <div class="toc-subitem"><a href="#stage-3-ableism">⛔ Stage 3</a></div>
+      </div>
+    </div>
+    <div class="toc-item">
+      <a href="#xenophobia" onclick="toggleTOC(event, this)">📌 Xenophobia</a>
+      <div class="toc-item-content">
+        <div class="toc-subitem"><a href="#stage-1-xenophobia">❎ Stage 1</a></div>
+        <div class="toc-subitem"><a href="#stage-2-xenophobia">⚠️ Stage 2</a></div>
+        <div class="toc-subitem"><a href="#stage-3-xenophobia">⛔ Stage 3</a></div>
+      </div>
+    </div>
+  </div>
+</div>
 
-#### [A] Being toxic towards the ref and using negative language to address them for example cursing at them or calling them names.
-- If it's obviously one player from a team
-- 1st offense = warning
-- 2nd offense = sit out a round
-- 3rd offense = ejection from match + 1 match suspension
-- If it’s a team being toxic
-- 1st offense = warning
-- 2nd offense = 30 second holding of tagger + warning
-- 3rd offense = point deduction + final warning 
-- 4th offense = match forfeit 
-- If it's everyone in the match
-- 1st offense = warning to both teams
-- 2nd offense = 2nd warning
-- 3rd offense =  rescheduling of scrim with different ref
-
-#### [B] Arguing with the ref about any decision, the ref's decision is final and issues with decisions will be taken up with the mod team after the match.
-- If it's one player arguing a decision
-- If arguing 1 decision let them argue for a little bit, but if it gets disrespectful punish based on Toxicity towards ref
-- If it's one team arguing a decision 
-- Same thing as above
-
-## A.6 Contract Rule
-
-#### [A] When A player Joins a team they have 3 days to decide to stay on that team, In these 3 days that player is not allowed to participate in any official matches for any reason.
-- If a player was banned then unbanned but never left team, then rule does not apply
-- If the match admin agrees to let a player play in a official match within the 3 days it can be allowed, but there would have to be really special causes for that to happen
-- If a player does not wish to stay on the team, they may leave and the 3 day rule resets when they join another team
-
-#### [B] When a player joins a team they have a contract for 2 weeks + the 3 intermission days so 17 days in totality.
-- If a team initiates contract with someone they may kick that player from the team, however the kicked player is stuck with the contract for 2 weeks
-- Teams may not initiate a contract with a player from their opponent's team that week. 
-- If a player leaves a team they will still have the contract for the 2 weeks
-
-#### [C] When the brackets close and elimination brackets begin, all player transactions will be locked, so you may not join a different team.
-- Teams may still kick people during elim bracket, however they cannot replace that player unless the team is deemed in critical condition
-- Teams that go into the Elim bracket are allowed to fill their empty spots, however once a spot is filled its filled, if someone leaves you may not fill spot again
-- Teams with open positions in elim bracket cannot fill open positions with any of the other previously locked players
-
-## A.7 Team Format Rules
-
-#### [A] Teams can only consist of a maximum of 10 players and a minimum of 4 players
-- If a team drops below 4 players they are given until 3 days before next official match to recover a 4th as less than 4 means the team is incapable of play
-
-#### [B] Teams may not consist of members younger than 13 years of age.
-- If a member is found to be under age, we will temp ban them until they turn 13
-- We only ban younger then 13 due to the TOS of discord and Gorilla tag
-
-#### [C] Only ONE!! Captain & ONE!! Co-captain can be registered for your team
-- We do allow split ownership of a team, but one person must assume captain role and co-captain role. 
-- Captain position is completely separate from a team player position, so a captain spot does not take up a spot on the team, however the captain cannot participate in comp - - scrims or matches.
-- If you want to participate in scrims and matches as a captain, you must fill a team player role, then you take up 1 spot on the team player roster and the captain position. 
-
-## A.8 Tardiness Rule
-
-#### [A] Both teams have to arrive in code at least 5 min before the scheduled time. 
-- If teams are not there 5 min before ref reports it to staff team
-- Staff team puts a strike on that team
-- If a team reaches 3 strikes the ref of the 3rd strike forfeits the late team. 
-
-#### [B] Both teams have 5 min after the scheduled time to get missing players into the code.
-- If team goes over the 5 min mark then it is a forfeit match
-- or if both teams agree its a reschedule for the same day at a later time
-
-#### [C] Within the 5 min early time frame all players should have their names and colors ready for the match.
-- If players do not have their names and colors good to go before an early 5 min window up. Punish them for stalling “intentionally impending the advancement of the game”
+<script>
+  function toggleTOC(event, link) {
+    event.preventDefault();
+    const parentItem = link.parentElement;
+    parentItem.classList.toggle('expanded');
+  }
+</script>
 
 
+---
+# Racism
+<style>
+/* General Container Styling */
+.tabular-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto;
+  justify-content: center;
+  max-width: 1200px;
+  color: white;
+  align-items: flex-start; /* Ensures independent heights for cards */
+}
 
+/* Parent Card Styling */
+.tabular-card {
+  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+  border-left: 6px solid;
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%; /* Cards remain side-by-side */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.tabular-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.low-severity {
+  border-color: #4caf50;
+}
+
+.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.high-severity {
+  border-color: #d32f2f;
+}
+
+.tabular-card-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 1px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.tabular-card-text {
+  color: #cfcfcf;
+  font-size: 0.95em;
+  margin-bottom: 0px;
+}
+
+.tabular-card-penalty {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+}
+
+/* Subcategory Styling */
+.subcategory-container {
+  margin-top: 15px;
+}
+
+.subcategory-box {
+  background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+  border-left: 4px solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subcategory-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.subcategory-box.low-severity {
+  border-color: #4caf50;
+}
+
+.subcategory-box.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.subcategory-box.high-severity {
+  border-color: #d32f2f;
+}
+
+.subcategory-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 5px;
+}
+
+.subcategory-text {
+  font-size: 0.85em;
+  color: #cfcfcf;
+}
+</style>
+
+<div class="tabular-card-container">
+  <!-- Low Severity Card -->
+  <div class="tabular-card low-severity">
+    <div class="tabular-card-title">❎ Stage - 1</div>
+    <div style="height: 2px; background-color: #4caf50; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 1</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Moderate Severity Card -->
+  <div class="tabular-card moderate-severity">
+    <div class="tabular-card-title">⚠️ Stage - 2</div>
+    <div style="height: 2px; background-color: #fbc02d; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 2</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- High Severity Card -->
+  <div class="tabular-card high-severity">
+    <div class="tabular-card-title">⛔ Stage - 3</div>
+    <div style="height: 2px; background-color: #d32f2f; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 3</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+# Homophobia
+<style>
+/* General Container Styling */
+.tabular-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto;
+  justify-content: center;
+  max-width: 1200px;
+  color: white;
+  align-items: flex-start; /* Ensures independent heights for cards */
+}
+
+/* Parent Card Styling */
+.tabular-card {
+  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+  border-left: 6px solid;
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%; /* Cards remain side-by-side */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tabular-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.low-severity {
+  border-color: #4caf50;
+}
+
+.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.high-severity {
+  border-color: #d32f2f;
+}
+
+.tabular-card-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 1px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.tabular-card-text {
+  color: #cfcfcf;
+  font-size: 0.95em;
+  margin-bottom: 0px;
+}
+
+.tabular-card-penalty {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+}
+
+/* Subcategory Styling */
+.subcategory-container {
+  margin-top: 15px;
+}
+
+.subcategory-box {
+  background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+  border-left: 4px solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subcategory-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.subcategory-box.low-severity {
+  border-color: #4caf50;
+}
+
+.subcategory-box.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.subcategory-box.high-severity {
+  border-color: #d32f2f;
+}
+
+.subcategory-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 5px;
+}
+
+.subcategory-text {
+  font-size: 0.85em;
+  color: #cfcfcf;
+}
+</style>
+
+<div class="tabular-card-container">
+  <!-- Low Severity Card -->
+  <div class="tabular-card low-severity">
+    <div class="tabular-card-title">❎ Stage - 1</div>
+    <div style="height: 2px; background-color: #4caf50; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 1</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Moderate Severity Card -->
+  <div class="tabular-card moderate-severity">
+    <div class="tabular-card-title">⚠️ Stage - 2</div>
+    <div style="height: 2px; background-color: #fbc02d; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 2</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- High Severity Card -->
+  <div class="tabular-card high-severity">
+    <div class="tabular-card-title">⛔ Stage - 3</div>
+    <div style="height: 2px; background-color: #d32f2f; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 3</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+# Sexism
+<style>
+/* General Container Styling */
+.tabular-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto;
+  justify-content: center;
+  max-width: 1200px;
+  color: white;
+  align-items: flex-start; /* Ensures independent heights for cards */
+}
+
+/* Parent Card Styling */
+.tabular-card {
+  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+  border-left: 6px solid;
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%; /* Cards remain side-by-side */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tabular-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.low-severity {
+  border-color: #4caf50;
+}
+
+.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.high-severity {
+  border-color: #d32f2f;
+}
+
+.tabular-card-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 1px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.tabular-card-text {
+  color: #cfcfcf;
+  font-size: 0.95em;
+  margin-bottom: 0px;
+}
+
+.tabular-card-penalty {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+}
+
+/* Subcategory Styling */
+.subcategory-container {
+  margin-top: 15px;
+}
+
+.subcategory-box {
+  background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+  border-left: 4px solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subcategory-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.subcategory-box.low-severity {
+  border-color: #4caf50;
+}
+
+.subcategory-box.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.subcategory-box.high-severity {
+  border-color: #d32f2f;
+}
+
+.subcategory-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 5px;
+}
+
+.subcategory-text {
+  font-size: 0.85em;
+  color: #cfcfcf;
+}
+</style>
+
+<div class="tabular-card-container">
+  <!-- Low Severity Card -->
+  <div class="tabular-card low-severity">
+    <div class="tabular-card-title">❎ Stage - 1</div>
+    <div style="height: 2px; background-color: #4caf50; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 1</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Moderate Severity Card -->
+  <div class="tabular-card moderate-severity">
+    <div class="tabular-card-title">⚠️ Stage - 2</div>
+    <div style="height: 2px; background-color: #fbc02d; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 2</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- High Severity Card -->
+  <div class="tabular-card high-severity">
+    <div class="tabular-card-title">⛔ Stage - 3</div>
+    <div style="height: 2px; background-color: #d32f2f; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 3</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+# Ableism
+<style>
+/* General Container Styling */
+.tabular-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto;
+  justify-content: center;
+  max-width: 1200px;
+  color: white;
+  align-items: flex-start; /* Ensures independent heights for cards */
+}
+
+/* Parent Card Styling */
+.tabular-card {
+  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+  border-left: 6px solid;
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%; /* Cards remain side-by-side */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tabular-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.low-severity {
+  border-color: #4caf50;
+}
+
+.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.high-severity {
+  border-color: #d32f2f;
+}
+
+.tabular-card-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 1px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.tabular-card-text {
+  color: #cfcfcf;
+  font-size: 0.95em;
+  margin-bottom: 0px;
+}
+
+.tabular-card-penalty {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+}
+
+/* Subcategory Styling */
+.subcategory-container {
+  margin-top: 15px;
+}
+
+.subcategory-box {
+  background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+  border-left: 4px solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subcategory-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.subcategory-box.low-severity {
+  border-color: #4caf50;
+}
+
+.subcategory-box.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.subcategory-box.high-severity {
+  border-color: #d32f2f;
+}
+
+.subcategory-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 5px;
+}
+
+.subcategory-text {
+  font-size: 0.85em;
+  color: #cfcfcf;
+}
+</style>
+
+<div class="tabular-card-container">
+  <!-- Low Severity Card -->
+  <div class="tabular-card low-severity">
+    <div class="tabular-card-title">❎ Stage - 1</div>
+    <div style="height: 2px; background-color: #4caf50; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 1</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Moderate Severity Card -->
+  <div class="tabular-card moderate-severity">
+    <div class="tabular-card-title">⚠️ Stage - 2</div>
+    <div style="height: 2px; background-color: #fbc02d; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 2</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- High Severity Card -->
+  <div class="tabular-card high-severity">
+    <div class="tabular-card-title">⛔ Stage - 3</div>
+    <div style="height: 2px; background-color: #d32f2f; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 3</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+# Xenophobia
+<style>
+/* General Container Styling */
+.tabular-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px auto;
+  justify-content: center;
+  max-width: 1200px;
+  color: white;
+  align-items: flex-start; /* Ensures independent heights for cards */
+}
+
+/* Parent Card Styling */
+.tabular-card {
+  background: linear-gradient(145deg, #2d2d2d, #1a1a1a);
+  border-left: 6px solid;
+  padding: 15px;
+  border-radius: 12px;
+  width: 30%; /* Cards remain side-by-side */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tabular-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.low-severity {
+  border-color: #4caf50;
+}
+
+.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.high-severity {
+  border-color: #d32f2f;
+}
+
+.tabular-card-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 1px;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.tabular-card-text {
+  color: #cfcfcf;
+  font-size: 0.95em;
+  margin-bottom: 0px;
+}
+
+.tabular-card-penalty {
+  font-size: 1em;
+  font-weight: bold;
+  color: #fff;
+  text-align: right;
+}
+
+/* Subcategory Styling */
+.subcategory-container {
+  margin-top: 15px;
+}
+
+.subcategory-box {
+  background: linear-gradient(145deg, #3a3a3a, #2a2a2a);
+  border-left: 4px solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.subcategory-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.subcategory-box.low-severity {
+  border-color: #4caf50;
+}
+
+.subcategory-box.moderate-severity {
+  border-color: #fbc02d;
+}
+
+.subcategory-box.high-severity {
+  border-color: #d32f2f;
+}
+
+.subcategory-title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #e4e3f6;
+  margin-bottom: 5px;
+}
+
+.subcategory-text {
+  font-size: 0.85em;
+  color: #cfcfcf;
+}
+</style>
+
+<div class="tabular-card-container">
+  <!-- Low Severity Card -->
+  <div class="tabular-card low-severity">
+    <div class="tabular-card-title">❎ Stage - 1</div>
+    <div style="height: 2px; background-color: #4caf50; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 1</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box low-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Moderate Severity Card -->
+  <div class="tabular-card moderate-severity">
+    <div class="tabular-card-title">⚠️ Stage - 2</div>
+    <div style="height: 2px; background-color: #fbc02d; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 2</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box moderate-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- High Severity Card -->
+  <div class="tabular-card high-severity">
+    <div class="tabular-card-title">⛔ Stage - 3</div>
+    <div style="height: 2px; background-color: #d32f2f; margin: 10px 0;"></div>
+    <div class="tabular-card-text">Offenses Considered Stage 3</div>
+    <div class="subcategory-container">
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+      <div class="subcategory-box high-severity">
+        <div class="subcategory-title">Offense/Violation</div>
+        <div class="subcategory-text">Brief Explination...</div>
+      </div>
+    </div>
+  </div>
+</div>
 
